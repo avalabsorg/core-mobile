@@ -149,7 +149,7 @@ __metadata:
     "@avalabs/core-utils-sdk": 3.0.1-alpha.1
     "@avalabs/core-wallets-sdk": 3.0.1-alpha.1
     "@avalabs/evm-module": 0.1.3
-    "@avalabs/glacier-sdk": 3.0.1-alpha.1
+    "@avalabs/glacier-sdk": 3.0.1-canary.936102c.0
     "@avalabs/k2-mobile": "workspace:*"
     "@avalabs/tsconfig-mobile": "workspace:*"
     "@avalabs/types": 3.0.1-alpha.1
@@ -429,6 +429,13 @@ __metadata:
   version: 3.0.1-alpha.1
   resolution: "@avalabs/glacier-sdk@npm:3.0.1-alpha.1"
   checksum: 6069869f98fb5b34e481c03566b26f292bd7bf82c761825a2267f5b96490874b10a4be8d91f836436d380d96c375a53f5ac153a1950574634d604a1aab66a2b9
+  languageName: node
+  linkType: hard
+
+"@avalabs/glacier-sdk@npm:3.0.1-canary.936102c.0":
+  version: 3.0.1-canary.936102c.0
+  resolution: "@avalabs/glacier-sdk@npm:3.0.1-canary.936102c.0"
+  checksum: 98f4f8e7e076b050e156da57beba4855015025d160eda6f8ea117d853cbdc0b7505b91c7816f5fbb8e479893c8764f843a404901ffa3fdd963ed2651eaaf7c9b
   languageName: node
   linkType: hard
 
