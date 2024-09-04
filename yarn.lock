@@ -211,7 +211,7 @@ __metadata:
     "@storybook/addon-ondevice-controls": 7.6.17
     "@storybook/react-native": 7.6.17
     "@tanstack/query-sync-storage-persister": 5.28.13
-    "@tanstack/react-query": 5.24.8
+    "@tanstack/react-query": 5.54.1
     "@tanstack/react-query-persist-client": 5.28.14
     "@tradle/react-native-http": 2.0.1
     "@typechain/ethers-v6": 0.5.0
@@ -7552,17 +7552,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/query-core@npm:5.24.8":
-  version: 5.24.8
-  resolution: "@tanstack/query-core@npm:5.24.8"
-  checksum: 622f13628bd79f3b6619913c4b4fb70fcdf9bbe90188c2be38f813f14c8ed42ec4f38821c0a7b2a71c9382909a4beb50a122704df48b6e6cbffd8940a3b16075
-  languageName: node
-  linkType: hard
-
 "@tanstack/query-core@npm:5.28.13":
   version: 5.28.13
   resolution: "@tanstack/query-core@npm:5.28.13"
   checksum: 38608889edb2ef5c3699573185b99e9e858829d2076c5f1fc6362b51ac1bdde152dfed5b1031172395d13563f17c2f4cabc57f34f1def030ca7faa7a4a1b73f5
+  languageName: node
+  linkType: hard
+
+"@tanstack/query-core@npm:5.54.1":
+  version: 5.54.1
+  resolution: "@tanstack/query-core@npm:5.54.1"
+  checksum: 2d097ae20a2e499f1966689e6084cc26da194a56eaa59345af41d3b68e70bff1edd73e8205b7d7cf1da58f74d8f23a1867d67593aae3408f28d9253328d3217e
   languageName: node
   linkType: hard
 
@@ -7597,14 +7597,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/react-query@npm:5.24.8":
-  version: 5.24.8
-  resolution: "@tanstack/react-query@npm:5.24.8"
+"@tanstack/react-query@npm:5.54.1":
+  version: 5.54.1
+  resolution: "@tanstack/react-query@npm:5.54.1"
   dependencies:
-    "@tanstack/query-core": 5.24.8
+    "@tanstack/query-core": 5.54.1
   peerDependencies:
-    react: ^18.0.0
-  checksum: a6b86e925e1c26dc83a640ff8bb215692d2aa952a713c0909335b1f42f0e686cbee2e5d2367242074c1436162132f198b334e209fe6dbbec2e87e53805b427a0
+    react: ^18 || ^19
+  checksum: a329a5882cbdc693114a40ba676772803abb7ed9201aff1880211f97c7bed6bebbc959b629bcc9f34bb9784538aa98ba09d68b7c9e5464929e5b0cfa1c204516
   languageName: node
   linkType: hard
 
